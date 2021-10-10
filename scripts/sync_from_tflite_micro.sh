@@ -27,7 +27,7 @@ TEMP_DIR=$(mktemp -d)
 cd "${TEMP_DIR}"
 
 echo Cloning tflite-micro repo to "${TEMP_DIR}"
-git clone --depth 1 --single-branch "https://github.com/tensorflow/tflite-micro.git"
+git clone --depth 1 --single-branch "https://github.com/krzim/tflite-micro.git"
 cd tflite-micro
 
 make -f tensorflow/lite/micro/tools/make/Makefile clean_downloads

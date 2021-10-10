@@ -64,6 +64,7 @@ TfLiteRegistration Register_READ_VARIABLE();
 TfLiteRegistration Register_RELU();
 TfLiteRegistration Register_RELU6();
 TfLiteRegistration Register_RESIZE_BILINEAR();
+TfLiteRegistration Register_REDUCE_PROD();
 TfLiteRegistration Register_SHAPE();
 TfLiteRegistration Register_SPACE_TO_BATCH_ND();
 TfLiteRegistration Register_SPACE_TO_DEPTH();
